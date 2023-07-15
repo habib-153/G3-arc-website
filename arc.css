@@ -69,7 +69,7 @@ nav li>a {
 .ban-title {
     color: #131313;
     font-size: 4rem;
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 .b-text {
@@ -82,4 +82,30 @@ nav li>a {
 .banner img {
     width: 100%;
     margin: 2.5rem 0rem;
+}
+
+
+
+/* responsive */
+/* mobile device */
+@media screen and (max-width:620px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav>ul{
+        padding: 0px;
+    }
+}
+
+/* tablet or medium */
+@media screen and (min-width:577px) and (max-width:960px){
+    header{
+        padding: 40px;
+    }
+    nav>ul{
+        padding: 0px;
+    }
 }
